@@ -47,5 +47,5 @@ automl = TabularUtilizedAutoML(
 )
 
 oof_pred = automl.fit_predict(df, roles = roles, verbose = 1)
-pickle.dump(model, open('lama_galacticum_regression_v1.sav ', 'wb'))
+pickle.dumps(model, open('lama_galacticum_regression_v1.sav ', 'wb'))
 
