@@ -1,4 +1,4 @@
-# Milk Project: Detecting antibiotics in milk 
+# Milk detection: Detecting antibiotics in milk 
 
 
 ## Data
