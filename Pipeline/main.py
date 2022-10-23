@@ -5,7 +5,7 @@ import torch
 
 class_model_path = 'Classification/Galacticum/galacticum_cnn_milk_v1.pth'
 reg_model_path = 'Regression/Galacticum/lama_galacticum_regression_v1.sav'
-label_encoder_path = 'le.sav'
+label_encoder_path = 'src/le.sav'
 
 
 
