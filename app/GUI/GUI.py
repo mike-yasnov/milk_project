@@ -89,10 +89,9 @@ class GUI(QMainWindow):
     def open_file(self):
         fname = QFileDialog.getOpenFileName(None, 'Select file', '', 'All Files (*);;Python Files(*.py);;Text files (*.txt)')
         self.fname = os.path.normpath(str(fname[0]))
-        print(fname)
         self.file_name = fname[0].split(os.sep)[-1]
         try:
-            self.plots = Galacticum(fname)
+            self.plots = Galacticum(fname[0])
             self.data = self.plots.data
             self.graph = Plot_Graph(self.data)
             self.display_graph()
